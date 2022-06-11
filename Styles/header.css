@@ -1,0 +1,109 @@
+.header {
+    padding: 0px 15px;
+    background-color: azure;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-smooth-blur-pastel-color-gradient-background-website-banner-paper-card-design_120819-487.jpg?w=2000");
+    padding: 0;
+    margin: 0;
+    background-size: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.sectiondiffer {
+    background-color: bisque;
+}
+
+.lg {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+button {
+    background-color: rgba(107, 35, 97, 0.514);
+    border: 5px black;
+    padding: 1px 2px;
+    border-radius: 100px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.but1:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.but3:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.but1 {
+    background-color: rgba(107, 35, 97, 0.514);
+    border: 5px black;
+    padding: 1px 2px;
+    border-radius: 100px;
+    transition-duration: 0.4s;
+}
+
+.footer {
+    background-color: aliceblue;
+}
+
+.but3 {
+    background-color: rgba(107, 35, 97, 0.514);
+    transition-duration: 0.4s;
+    border: 5px black;
+    padding: 1px 2px;
+    border-radius: 100px;
+}
+
+.header .nav-item {
+    padding-left: 50px;
+}
+
+.header .navbar {
+    padding: 10px 0px;
+    line-height: 50px;
+}
+
+.header.sticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 91;
+}
+
+.header.sticky .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
+    opacity: 0;
+    -webkit-animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+    animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
